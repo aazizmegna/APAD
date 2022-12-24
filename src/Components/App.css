@@ -1,20 +1,20 @@
 :root {
-  --primary: #34AD54;
-  --secondary: #FF9933;
-  --light: #F6FFF2;
-  --dark: #263A4F;
+  --primary: #34ad54;
+  --secondary: #ff9933;
+  --light: #f6fff2;
+  --dark: #263a4f;
 }
 
 .btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   font-weight: 700;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .btn-primary,
 .btn-secondary {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn-square {
@@ -53,9 +53,9 @@
   padding: 30px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -68,20 +68,20 @@
 }
 
 @media (max-width: 991.98px) {
-  .navbar-dark .navbar-nav .nav-link  {
-      padding: 10px;
+  .navbar-dark .navbar-nav .nav-link {
+    padding: 10px;
   }
 }
 
 @media (max-width: 576px) {
   .carousel-caption h4 {
-      font-size: 18px;
-      font-weight: 500 !important;
+    font-size: 18px;
+    font-weight: 500 !important;
   }
 
   .carousel-caption h1 {
-      font-size: 30px;
-      font-weight: 600 !important;
+    font-size: 30px;
+    font-weight: 600 !important;
   }
 }
 
@@ -95,31 +95,32 @@
   width: 3rem;
   height: 3rem;
 }
-.carou{
+.carou {
   max-width: 900px;
 }
-.ban{
+.ban {
   height: 300px;
 }
-.factst{
-  width: 60px; 
+.factst {
+  width: 60px;
   height: 60px;
 }
-.bgteam{
-  background: rgba(52, 173, 84, .85);
+.bgteam {
+  background: rgba(52, 173, 84, 0.85);
 }
-.teamwidth{
+.teamwidth {
   max-width: 500px;
 }
-.contactheight{
+.contactheight {
   height: 55px;
 }
-.contactwidth{
+.contactwidth {
   max-width: 500px;
 }
 
-.contacthw{
-  width: 60px; height: 60px;
+.contacthw {
+  width: 60px;
+  height: 60px;
 }
 
 .bg-hero {
@@ -129,25 +130,27 @@
 
 @media (min-width: 991.98px) {
   .banner {
-      position: relative;
-      margin-top: -90px;
-      z-index: 1;
+    position: relative;
+    margin-top: -90px;
+    z-index: 1;
   }
 }
 
 .bg-vegetable {
-  background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)), url(../img/vegetable.png) bottom right no-repeat;
+  background: linear-gradient(rgba(52, 173, 84, 0.2), rgba(52, 173, 84, 0.2)),
+    url(../img/vegetable.png) bottom right no-repeat;
   background-size: contain;
 }
 
 .bg-fruit {
-  background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .2)), url(../img/fruit.png) bottom right no-repeat;
+  background: linear-gradient(rgba(255, 153, 51, 0.2), rgba(255, 153, 51, 0.2)),
+    url(../img/fruit.png) bottom right no-repeat;
   background-size: contain;
 }
 
 .service-item {
-  box-shadow: 0 0 45px #EDEDED;
-  transition: .5s;
+  box-shadow: 0 0 45px #ededed;
+  transition: 0.5s;
 }
 
 .about i,
@@ -155,7 +158,7 @@
   background-image: linear-gradient(var(--primary), var(--secondary));
   /*-webkit-background-clip: text;*/
   -webkit-text-fill-color: transparent;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .service-item:hover {
@@ -168,7 +171,7 @@
 }
 
 .service-item:hover h4 {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .service-item:hover h4 {
@@ -185,16 +188,18 @@
   bottom: -40px;
   left: 0;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
-
+.slogan {
+  text-align: center;
+}
 .product-item:hover .btn-action {
   bottom: 0;
   opacity: 1;
 }
 
 .product-item h5 {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .product-item:hover h5 {
@@ -204,11 +209,12 @@
 .product-carousel::after {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 0%;
   height: 55%;
   bottom: 0;
   left: 0;
-  background: url(../img/bg-product-1.png) left bottom no-repeat, url(../img/bg-product-2.png) right bottom no-repeat;
+  background: url(../img/bg-product-1.png) left bottom no-repeat,
+    url(../img/bg-product-2.png) right bottom no-repeat;
   background-size: contain;
   background-color: var(--primary);
   z-index: -1;
@@ -222,7 +228,7 @@
 }
 
 .product-carousel .owl-nav .owl-prev,
-.product-carousel .owl-nav .owl-next{
+.product-carousel .owl-nav .owl-next {
   position: relative;
   width: 55px;
   height: 45px;
@@ -230,9 +236,9 @@
   align-items: center;
   justify-content: center;
   color: var(--primary);
-  background: #FFFFFF;
+  background: #ffffff;
   font-size: 22px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .product-carousel .owl-nav .owl-prev:hover,
@@ -246,7 +252,7 @@
 }
 
 .testimonial-carousel {
-  background: rgba(52, 173, 84, .7);
+  background: rgba(52, 173, 84, 0.7);
 }
 
 .testimonial-carousel .owl-nav {
@@ -269,9 +275,9 @@
   align-items: center;
   justify-content: center;
   color: var(--primary);
-  background: #FFFFFF;
+  background: #ffffff;
   font-size: 22px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
@@ -285,7 +291,7 @@
 }
 
 .blog-item img {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .blog-item:hover img {
@@ -308,12 +314,13 @@
 }
 
 .bg-footer {
-  background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .7)), url(../img/footer.png) center bottom no-repeat;
+  background: linear-gradient(rgba(52, 173, 84, 0.7), rgba(52, 173, 84, 0.7)),
+    url(../img/footer.png) center bottom no-repeat;
   background-size: contain;
 }
 
 @media (min-width: 991.98px) {
   .bg-footer {
-      margin-top: 90px !important;
+    margin-top: 90px !important;
   }
 }
