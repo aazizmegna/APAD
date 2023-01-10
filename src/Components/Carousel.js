@@ -48,7 +48,9 @@ function Carousel() {
             <img className="w-100" src={carousel} alt="Images" />
             <div className="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
               <div className="text-start p-5 carou">
-                <h3 className="text-white">Agriculture sans chimiques</h3>
+                <h3 className="text-white">
+                  Agriculture sans produits chimiques
+                </h3>
                 <h1 className="display-1 text-white mb-md-4">
                   Impacts des produits Chimiques
                 </h1>
