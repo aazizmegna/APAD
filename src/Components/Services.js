@@ -1,4 +1,5 @@
 import React from "react";
+import part from "../img/part.jpg";
 
 function Services() {
   return (
@@ -18,13 +19,27 @@ function Services() {
             </a>
           </div>
           <div className="col-lg-4 col-md-6">
+            <div className="position-relative">
+              <img className="img-fluid w-100" src={part} alt="" />
+              <div className="position-absolute start-0 bottom-0 w-100 py-3 px-4 bgteam">
+                <h4 className="text-white">Formateur, Hassan Chadjaa</h4>
+                <span className="text-white">
+                  Ing. Agronome, M.Sc, Doc, Expert International en
+                  Biotechnologies agricoles, Agroalimentation et
+                  agroenvironnement
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
             <div className="service-item bg-light text-center p-5">
               <i className="fa fa-carrot display-1 text-primary mb-3"></i>
               <h4>Nos Formations</h4>
               <p className="mb-0">
                 Nous offrons des formations en Apiculture, Myciculture, Culture
-                légumière, Viennoiseries, Aviculture et Pisciculture et bien
-                d'autres
+                légumière, Viennoiseries, Aviculture et Pisciculture, sur le
+                processus te transformation du manioc et de la patate en farine
+                et bien d'autres
               </p>
             </div>
           </div>

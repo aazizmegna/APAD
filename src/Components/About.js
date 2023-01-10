@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../img/about.png";
+import aboutImg from "../img/1.jpg";
 
 function About() {
   const text1 =
