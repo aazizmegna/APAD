@@ -1,0 +1,44 @@
+[debug] [2023-01-10T20:36:52.125Z] ----------------------------------------------------------------------
+[debug] [2023-01-10T20:36:52.127Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abdel Aziz\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-10T20:36:52.128Z] CLI Version:   11.20.0
+[debug] [2023-01-10T20:36:52.128Z] Platform:      win32
+[debug] [2023-01-10T20:36:52.128Z] Node Version:  v16.17.1
+[debug] [2023-01-10T20:36:52.129Z] Time:          Tue Jan 10 2023 23:36:52 GMT+0300 (GMT+03:00)
+[debug] [2023-01-10T20:36:52.129Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-10T20:36:52.191Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-10T20:36:52.191Z] > authorizing via signed-in user (azizoukamo@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\FrontendMaster\React\apad
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-10T20:37:00.709Z] Using project from CLI flag: apad-e4da7
+[debug] [2023-01-10T20:37:00.713Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/apad-e4da7 [none]
+[debug] [2023-01-10T20:37:01.118Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/apad-e4da7 200
+[debug] [2023-01-10T20:37:01.118Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/apad-e4da7 {"projectId":"apad-e4da7","projectNumber":"852126490505","displayName":"apad","name":"projects/apad-e4da7","resources":{"hostingSite":"apad-e4da7"},"state":"ACTIVE","etag":"1_ee9f638c-7c27-425b-a013-fb75a18539b2"}
+[info] i  Using project apad-e4da7 (apad) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
